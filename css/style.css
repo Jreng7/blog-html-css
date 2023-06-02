@@ -36,6 +36,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 0.5rem;
   padding: 2rem 10%;
   box-shadow: 6px -2px 14px #4c4c4c;
   -webkit-box-shadow: 6px -2px 14px #4c4c4c;
