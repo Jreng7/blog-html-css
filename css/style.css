@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: rgb(20, 27, 43);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  position: sticky;
+  top: 0;
+  background-color: rgb(20, 27, 43);
+  z-index: 10;
+}
+
+header:hover {
+  box-shadow: rgba(62, 133, 192, 0.534) 0px 25px 50px -12px;
+}
+
+header>a {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+  gap: 0.7rem;
+}
+
+header nav ul li {
+  margin-left: 2.7rem;
+}
+
+header nav ul li a {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem 10%;
+}
+
+main {
+  padding: 5rem 10%;
+}
+
+footer {
+  text-align: center;
+  padding: 2.1rem 10%;
+  background-color: cadetblue;
+}
+
+footer small {
+  border: solid 1px rgb(186, 92, 205);
+}
