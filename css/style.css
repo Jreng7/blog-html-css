@@ -14,7 +14,7 @@
 
 body {
   height: 100vh;
-  width: 100rem;
+  max-width: 120rem;
   margin: 0 auto;
   font-size: 1.6rem;
   color: aliceblue;
@@ -41,9 +41,10 @@ header {
   box-shadow: 6px -2px 14px #4c4c4c;
   -webkit-box-shadow: 6px -2px 14px #4c4c4c;
 
-  position: sticky;
-  z-index: 9999999 !important;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
 }
 
 header:hover {
