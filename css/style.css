@@ -12,10 +12,14 @@
   font-size: 62.5%;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   height: 100vh;
   max-width: 120rem;
-  margin: 0 auto;
   font-size: 1.6rem;
   color: aliceblue;
   background-color: rgb(20, 27, 43);
@@ -37,10 +41,9 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 0.5rem;
-  padding: 2rem 10%;
   box-shadow: 6px -2px 14px #4c4c4c;
   -webkit-box-shadow: 6px -2px 14px #4c4c4c;
-
+  padding: 3rem 10%;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,7 +54,7 @@ header:hover {
   box-shadow: rgba(62, 133, 192, 0.534) 0px 25px 50px -12px;
 }
 
-header>a {
+header > a {
   font-size: 2.8rem;
   font-weight: 700;
 }
@@ -70,26 +73,18 @@ header nav ul li a {
   font-weight: 500;
 }
 
-section {
+.sec-on {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15rem;
+  width: 100%;
   gap: 2rem;
-  padding: 5rem 10%;
-  z-index: -1;
 }
 
-.sec3 {
-  padding: 5rem 10%;
-  z-index: -1;
-}
 
 footer {
   text-align: center;
-  padding: 2.1rem 10%;
   background-color: cadetblue;
-}
-
-footer small {
-  border: solid 1px rgb(186, 92, 205);
+  width: 100%;
 }
