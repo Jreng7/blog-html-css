@@ -13,7 +13,7 @@
   --main-color: #033a80;
   --bg-color: #fff;
   --text-color: #0f0c27;
-  --hover: hsl(260, 100%, 51%);
+  --hover-color: hsl(260, 100%, 51%);
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
@@ -45,9 +45,59 @@ header {
   top: 0;
   right: 0;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color);
+  padding: 13px 10%;
+  transition: 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+header:hover {
+  box-shadow: rgba(14, 30, 46, 0.288) 0px 20px 30px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.logo span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(8, 81, 141);
+}
+
+.nav-ul {
+  display: flex;
+}
+
+.nav-ul a {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.nav-ul a:hover {
+  color: var(--hover-color);
+}
+
+#menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+
+#darkmode {
+  padding-left: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
 }
 
 section {
   padding: 5rem 10%;
+  
 }
-
