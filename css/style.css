@@ -1,88 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 :root {
-  font-family: 'Poppins', sans-serif;
   font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
 }
 
-html {
-  display: flex;
-  justify-content: center;
-  width: 120rem;
-  padding: 0 10%;
- }
-
-body {
-  height: 100vh;
-  width: 120rem;
-  font-size: 1.6rem;
-  color: aliceblue;
-  background-color: rgb(20, 27, 43);
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-/* Header */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  border-radius: 0.5rem;
-  box-shadow: 6px -2px 14px #4c4c4c;
-  -webkit-box-shadow: 6px -2px 14px #4c4c4c;
-
-  padding: 2.5rem 10%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-header:hover {
-  box-shadow: rgba(62, 133, 192, 0.534) 0px 25px 50px -12px;
-}
-
-header > a {
-  font-size: 2.8rem;
-  font-weight: 700;
-}
-
-header nav ul {
-  display: flex;
-  gap: 0.7rem;
-}
-
-header nav ul li {
-  margin-left: 2.7rem;
-}
-
-header nav ul li a {
-  font-size: 1.8rem;
-  font-weight: 500;
-}
-
-.sec-on {
-  margin-top: 15rem;
-}
-
-
-footer {
-  text-align: center;
-  background-color: cadetblue;
-}
