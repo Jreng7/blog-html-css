@@ -163,3 +163,7 @@ header:hover {
 .btn:hover {
   background: var(--hover-color);
 }
+
+.about-container {
+  display: grid;
+}
