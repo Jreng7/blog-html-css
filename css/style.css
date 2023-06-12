@@ -12,6 +12,7 @@
   font-family: 'Poppins', sans-serif;
   --main-color: #033a80;
   --bg-color: #fff;
+  --bg-color-sec: #f8f7f7;
   --text-color: #0f0c27;
   --hover-color: hsl(260, 100%, 51%);
   --big-font: 3.2rem;
@@ -21,7 +22,7 @@
 }
 
 body {
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
@@ -99,7 +100,6 @@ header:hover {
 }
 
 .home {
-  padding: 5rem 10%;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -122,6 +122,10 @@ header:hover {
 
 .social a:hover{
   color: var(--hover-color);
+}
+
+section {
+  padding: 5rem 10%;
 }
 
 .home-img {
@@ -164,6 +168,13 @@ header:hover {
   background: var(--hover-color);
 }
 
+.about {
+  background-color: var(--bg-color-sec);;
+}
+
 .about-container {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
 }
