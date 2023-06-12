@@ -169,7 +169,8 @@ section {
 }
 
 .about {
-  background-color: var(--bg-color-sec);;
+  background-color: var(--bg-color-sec);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .about-container {
@@ -185,5 +186,5 @@ section {
 }
 
 .about-text p {
-  
+  font-size: var(--p-font);
 }
