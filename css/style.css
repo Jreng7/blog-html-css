@@ -178,3 +178,12 @@ section {
   gap: 1rem;
   margin-top: 2rem;
 }
+
+.about-img img {
+  width: 80%;
+  border-radius: 0.7rem;
+}
+
+.about-text p {
+  
+}
